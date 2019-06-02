@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [360Kad automated testing Suite PC]">
+  <parameter name="username" value="18520154073"/>
+  <parameter name="password" value="222222"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="PC.DS Testing for Account(failed)">
+    <classes>
+      <class name="com.ds.testcases.NewTest">
+        <methods>
+          <include name="test_AccountLoginWithWrongPassword"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.ds.testcases.NewTest -->
+      <class name="com.ds.testcases.testCreateOrder_PC">
+        <methods>
+          <include name="test_6_SubmitOrder"/>
+          <include name="test_1_SearchTheProduct"/>
+          <include name="test_5_GoToOrder"/>
+          <include name="test_7_CancelOrder"/>
+          <include name="test_2_ClickTheSearchedProduct"/>
+          <include name="test_3_AddTheSearchedProductToCart"/>
+        </methods>
+      </class> <!-- com.ds.testcases.testCreateOrder_PC -->
+      <class name="com.ds.testcases.testAccount">
+        <methods>
+          <include name="test_AccountLoginWithWrongPassword"/>
+          <include name="test_AccountLogin"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.ds.testcases.testAccount -->
+    </classes>
+  </test> <!-- PC.DS Testing for Account(failed) -->
+</suite> <!-- Failed suite [360Kad automated testing Suite PC] -->

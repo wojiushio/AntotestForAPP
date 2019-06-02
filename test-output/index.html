@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-360Kad_automated_testing_Suite_PC">
+              <span class="suite-name border-failed">360Kad automated testing Suite PC</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-360Kad_automated_testing_Suite_PC">
+                    <span>D:\AntomationTesting\workspace\AntotestForAPP\ProductEvi\gstzyForProEvi_PC.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-360Kad_automated_testing_Suite_PC">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-360Kad_automated_testing_Suite_PC">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-360Kad_automated_testing_Suite_PC">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-360Kad_automated_testing_Suite_PC">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-360Kad_automated_testing_Suite_PC">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-360Kad_automated_testing_Suite_PC">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods, 2 failed,  7 skipped,  1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-360Kad_automated_testing_Suite_PC" class="hide-methods failed suite-360Kad_automated_testing_Suite_PC"> (hide)</a> <!-- hide-methods failed suite-360Kad_automated_testing_Suite_PC -->
+                      <a href="#" panel-name="suite-360Kad_automated_testing_Suite_PC" class="show-methods failed suite-360Kad_automated_testing_Suite_PC"> (show)</a> <!-- show-methods failed suite-360Kad_automated_testing_Suite_PC -->
+                    </span>
+                    <div class="method-list-content failed suite-360Kad_automated_testing_Suite_PC">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-360Kad_automated_testing_Suite_PC" title="com.ds.testcases.testAccount" hash-for-method="test_AccountLoginWithWrongPassword">test_AccountLoginWithWrongPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-360Kad_automated_testing_Suite_PC" title="com.ds.testcases.NewTest" hash-for-method="test_AccountLoginWithWrongPassword">test_AccountLoginWithWrongPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-360Kad_automated_testing_Suite_PC -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-360Kad_automated_testing_Suite_PC" class="hide-methods skipped suite-360Kad_automated_testing_Suite_PC"> (hide)</a> <!-- hide-methods skipped suite-360Kad_automated_testing_Suite_PC -->
+                      <a href="#" panel-name="suite-360Kad_automated_testing_Suite_PC" class="show-methods skipped suite-360Kad_automated_testing_Suite_PC"> (show)</a> <!-- show-methods skipped suite-360Kad_automated_testing_Suite_PC -->
+                    </span>
+                    <div class="method-list-content skipped suite-360Kad_automated_testing_Suite_PC">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-360Kad_automated_testing_Suite_PC" title="com.ds.testcases.testCreateOrder_PC" hash-for-method="test_1_SearchTheProduct">test_1_SearchTheProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-360Kad_automated_testing_Suite_PC" title="com.ds.testcases.testCreateOrder_PC" hash-for-method="test_2_ClickTheSearchedProduct">test_2_ClickTheSearchedProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-360Kad_automated_testing_Suite_PC" title="com.ds.testcases.testCreateOrder_PC" hash-for-method="test_3_AddTheSearchedProductToCart">test_3_AddTheSearchedProductToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-360Kad_automated_testing_Suite_PC" title="com.ds.testcases.testCreateOrder_PC" hash-for-method="test_5_GoToOrder">test_5_GoToOrder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-360Kad_automated_testing_Suite_PC" title="com.ds.testcases.testCreateOrder_PC" hash-for-method="test_6_SubmitOrder">test_6_SubmitOrder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-360Kad_automated_testing_Suite_PC" title="com.ds.testcases.testCreateOrder_PC" hash-for-method="test_7_CancelOrder">test_7_CancelOrder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-360Kad_automated_testing_Suite_PC" title="com.ds.testcases.testAccount" hash-for-method="test_AccountLogin(18520154073, 222222)">test_AccountLogin(18520154073, 222222)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-360Kad_automated_testing_Suite_PC -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-360Kad_automated_testing_Suite_PC" class="hide-methods passed suite-360Kad_automated_testing_Suite_PC"> (hide)</a> <!-- hide-methods passed suite-360Kad_automated_testing_Suite_PC -->
+                      <a href="#" panel-name="suite-360Kad_automated_testing_Suite_PC" class="show-methods passed suite-360Kad_automated_testing_Suite_PC"> (show)</a> <!-- show-methods passed suite-360Kad_automated_testing_Suite_PC -->
+                    </span>
+                    <div class="method-list-content passed suite-360Kad_automated_testing_Suite_PC">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-360Kad_automated_testing_Suite_PC" title="com.ds.testcases.NewTest" hash-for-method="test_AccountLogin(18520154073, 222222)">test_AccountLogin(18520154073, 222222)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-360Kad_automated_testing_Suite_PC -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-360Kad_automated_testing_Suite_PC" class="panel 360Kad_automated_testing_Suite_PC">
+          <div class="suite-360Kad_automated_testing_Suite_PC-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.ds.testcases.NewTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_AccountLoginWithWrongPassword">
+                  </a> <!-- test_AccountLoginWithWrongPassword -->
+                  <span class="method-name">test_AccountLoginWithWrongPassword</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;Wpassword&apos; is required by @Test on method test_AccountLoginWithWrongPassword but has not been marked @Optional or defined
+in D:\AntomationTesting\workspace\AntotestForAPP\ProductEvi\gstzyForProEvi_PC.xml
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(testAccountLogin)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-360Kad_automated_testing_Suite_PC-class-failed -->
+          <div class="suite-360Kad_automated_testing_Suite_PC-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.ds.testcases.testAccount</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_AccountLoginWithWrongPassword">
+                  </a> <!-- test_AccountLoginWithWrongPassword -->
+                  <span class="method-name">test_AccountLoginWithWrongPassword</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;Wpassword&apos; is required by @Test on method test_AccountLoginWithWrongPassword but has not been marked @Optional or defined
+in D:\AntomationTesting\workspace\AntotestForAPP\ProductEvi\gstzyForProEvi_PC.xml
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(testAccountLogin)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-360Kad_automated_testing_Suite_PC-class-failed -->
+          <div class="suite-360Kad_automated_testing_Suite_PC-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.ds.testcases.testCreateOrder_PC</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_1_SearchTheProduct">
+                  </a> <!-- test_1_SearchTheProduct -->
+                  <span class="method-name">test_1_SearchTheProduct</span>
+                  <em>
+(testSearchTheProduct)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_2_ClickTheSearchedProduct">
+                  </a> <!-- test_2_ClickTheSearchedProduct -->
+                  <span class="method-name">test_2_ClickTheSearchedProduct</span>
+                  <em>
+(testClickTheSearchedProduct)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_3_AddTheSearchedProductToCart">
+                  </a> <!-- test_3_AddTheSearchedProductToCart -->
+                  <span class="method-name">test_3_AddTheSearchedProductToCart</span>
+                  <em>
+(testAddTheSearchedProductToCart)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_5_GoToOrder">
+                  </a> <!-- test_5_GoToOrder -->
+                  <span class="method-name">test_5_GoToOrder</span>
+                  <em>
+(testGoToOrder)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_6_SubmitOrder">
+                  </a> <!-- test_6_SubmitOrder -->
+                  <span class="method-name">test_6_SubmitOrder</span>
+                  <em>
+(testSubmitOrder)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_7_CancelOrder">
+                  </a> <!-- test_7_CancelOrder -->
+                  <span class="method-name">test_7_CancelOrder</span>
+                  <em>
+(testCancelOrder)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-360Kad_automated_testing_Suite_PC-class-skipped -->
+          <div class="suite-360Kad_automated_testing_Suite_PC-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.ds.testcases.testAccount</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_AccountLogin(18520154073, 222222)">
+                  </a> <!-- test_AccountLogin(18520154073, 222222) -->
+                  <span class="method-name">test_AccountLogin</span>
+                  <span class="parameters">(18520154073, 222222)</span>
+                  <em>
+(testAccountLogin)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-360Kad_automated_testing_Suite_PC-class-skipped -->
+          <div class="suite-360Kad_automated_testing_Suite_PC-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ds.testcases.NewTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_AccountLogin(18520154073, 222222)">
+                  </a> <!-- test_AccountLogin(18520154073, 222222) -->
+                  <span class="method-name">test_AccountLogin</span>
+                  <span class="parameters">(18520154073, 222222)</span>
+                  <em>
+(testAccountLogin)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-360Kad_automated_testing_Suite_PC-class-passed -->
+        </div> <!-- panel 360Kad_automated_testing_Suite_PC -->
+        <div panel-name="test-xml-360Kad_automated_testing_Suite_PC" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\AntomationTesting\workspace\AntotestForAPP\ProductEvi\gstzyForProEvi_PC.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;360Kad automated testing Suite PC&quot;&gt;
+  &lt;parameter name=&quot;username&quot; value=&quot;18520154073&quot;/&gt;
+  &lt;parameter name=&quot;password&quot; value=&quot;222222&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;PC.DS Testing for Account&quot;&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;com.ds.testcases&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.ds.testcases.NewTest&quot;/&gt;
+      &lt;class name=&quot;com.ds.testcases.testAccount&quot;/&gt;
+      &lt;class name=&quot;com.ds.testcases.testCreateOrder_PC&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- PC.DS Testing for Account --&gt;
+&lt;/suite&gt; &lt;!-- 360Kad automated testing Suite PC --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-360Kad_automated_testing_Suite_PC" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for 360Kad automated testing Suite PC</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">PC.DS Testing for Account (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-360Kad_automated_testing_Suite_PC" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for 360Kad automated testing Suite PC</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-360Kad_automated_testing_Suite_PC" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for 360Kad automated testing Suite PC</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_360Kad_automated_testing_Suite_PC');
+function tableData_360Kad_automated_testing_Suite_PC() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'test_AccountLogin')
+data.setCell(0, 2, 'com.ds.testcases.NewTest')
+data.setCell(0, 3, 9425);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'test_2_ClickTheSearchedProduct')
+data.setCell(1, 2, 'com.ds.testcases.testCreateOrder_PC')
+data.setCell(1, 3, 1);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'test_6_SubmitOrder')
+data.setCell(2, 2, 'com.ds.testcases.testCreateOrder_PC')
+data.setCell(2, 3, 1);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'test_5_GoToOrder')
+data.setCell(3, 2, 'com.ds.testcases.testCreateOrder_PC')
+data.setCell(3, 3, 1);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'test_AccountLogin')
+data.setCell(4, 2, 'com.ds.testcases.testAccount')
+data.setCell(4, 3, 1);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'test_7_CancelOrder')
+data.setCell(5, 2, 'com.ds.testcases.testCreateOrder_PC')
+data.setCell(5, 3, 1);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'test_AccountLoginWithWrongPassword')
+data.setCell(6, 2, 'com.ds.testcases.testAccount')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'test_AccountLoginWithWrongPassword')
+data.setCell(7, 2, 'com.ds.testcases.NewTest')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'test_1_SearchTheProduct')
+data.setCell(8, 2, 'com.ds.testcases.testCreateOrder_PC')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'test_3_AddTheSearchedProductToCart')
+data.setCell(9, 2, 'com.ds.testcases.testCreateOrder_PC')
+data.setCell(9, 3, 0);
+window.suiteTableData['360Kad_automated_testing_Suite_PC']= { tableData: data, tableDiv: 'times-div-360Kad_automated_testing_Suite_PC'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 9 seconds</span>
+              <div id="times-div-360Kad_automated_testing_Suite_PC">
+              </div> <!-- times-div-360Kad_automated_testing_Suite_PC -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-360Kad_automated_testing_Suite_PC" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for 360Kad automated testing Suite PC</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-360Kad_automated_testing_Suite_PC" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-360Kad_automated_testing_Suite_PC" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ds.testcases.NewTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">test_AccountLogin(18520154073, 222222)</span>
+                <span class="method-start">32885 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">42315 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ds.testcases.testAccount</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp</span>
+                <span class="method-start">42316 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">test_AccountLogin(18520154073, 222222)</span>
+                <span class="method-start">75087 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ds.testcases.testCreateOrder_PC</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test_1_SearchTheProduct</span>
+                <span class="method-start">75092 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_2_ClickTheSearchedProduct</span>
+                <span class="method-start">75093 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_3_AddTheSearchedProductToCart</span>
+                <span class="method-start">75095 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_5_GoToOrder</span>
+                <span class="method-start">75096 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_6_SubmitOrder</span>
+                <span class="method-start">75097 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_7_CancelOrder</span>
+                <span class="method-start">75098 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

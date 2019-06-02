@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PC.DS Testing for Account"
+           tests="1"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="40.693">
+  <properties />
+            <testcase name="testLoginByUserNameSuc" time="40.693" classname="com.ds.testcases.Account.TestCase_Login">
+                <failure type="org.openqa.selenium.NoSuchElementException"
+                  message="no such element: Unable to locate element: {&quot;method&quot;:&quot;partial link text&quot;,&quot;selector&quot;:&quot;您好&quot;}
+  (Session info: chrome=63.0.3239.84)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.50.0&apos;, revision: &apos;1070ace4650453d518aeb03e7a9a36c9d264a8e7&apos;, time: &apos;2016-01-27 10:46:18&apos;
+System info: host: &apos;DS-YF-118&apos;, ip: &apos;10.8.70.159&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_51&apos;
+*** Element info: {Using=partial link text, value=您好}
+Session ID: d1911ead6e70ecc1b652d109fd25d320
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=false, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\dell\AppData\Local\Temp\scoped_dir19588_15876, chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, setWindowRect=true, mobileEmulationEnabled=false, locationContextEnabled=true, pageLoadStrategy=normal, version=63.0.3239.84, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true, acceptInsecureCerts=false}]"
+              >
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"partial link text","selector":"您好"}
+  (Session info: chrome=63.0.3239.84)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.50.0', revision: '1070ace4650453d518aeb03e7a9a36c9d264a8e7', time: '2016-01-27 10:46:18'
+System info: host: 'DS-YF-118', ip: '10.8.70.159', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+*** Element info: {Using=partial link text, value=您好}
+Session ID: d1911ead6e70ecc1b652d109fd25d320
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=false, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\dell\AppData\Local\Temp\scoped_dir19588_15876, chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, setWindowRect=true, mobileEmulationEnabled=false, locationContextEnabled=true, pageLoadStrategy=normal, version=63.0.3239.84, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true, acceptInsecureCerts=false}]
+  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+  java.lang.reflect.Constructor.newInstance(Unknown Source)
+  org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+  org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+  org.openqa.selenium.remote.RemoteWebDriver.findElementByPartialLinkText(RemoteWebDriver.java:436)
+  org.openqa.selenium.By$ByPartialLinkText.findElement(By.java:273)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+  com.ds.testcases.Account.TestCase_Login.isElementPresent(TestCase_Login.java:175)
+  com.ds.testcases.Account.TestCase_Login.testLoginByUserNameSuc(TestCase_Login.java:99)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+  org.testng.TestRunner.privateRun(TestRunner.java:767)
+  org.testng.TestRunner.run(TestRunner.java:617)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:335)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:330)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+  org.testng.SuiteRunner.run(SuiteRunner.java:240)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+  org.testng.TestNG.run(TestNG.java:1057)
+  org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+  
+</testsuite>

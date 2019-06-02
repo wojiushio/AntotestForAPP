@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <parameter name="username" value="18520154073"/>
+  <parameter name="password" value="222222"/>
+  <parameter name="Wpassword" value="not-found"/>
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.ds.testcases.Account.testAccount">
+        <methods>
+          <include name="test_AccountLoginWithWrongPassword"/>
+          <include name="test_AccountLogin"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.ds.testcases.Account.testAccount -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PC.360KAD Testing for Account"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="13.569">
+  <properties />
+  
+  
+            <testcase name="testLoginByUserNameSuc" time="13.569" classname="com.gstzy.testcases.Account.TestCase_Login" />
+      
+</testsuite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PC.DS Testing for Account"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="1"
+           time="19.074">
+  <properties />
+  
+            <testcase name="test_AccountLoginWithWrongPassword" time="0.0" classname="com.ds.testcases.testAccount">
+          <skipped />
+    </testcase>
+  
+            <testcase name="test_AccountLogin" time="19.074" classname="com.ds.testcases.testAccount" />
+      
+</testsuite>

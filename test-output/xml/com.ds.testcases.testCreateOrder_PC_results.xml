@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PC.DS Testing for Account"
+           tests="8"
+           failures="1"
+           errors="0"
+           skipped="7"
+           time="0.004">
+  <properties />
+            <testcase name="setUp" time="0.000" classname="com.ds.testcases.testCreateOrder_PC">
+                <failure type="org.testng.TestNGException"
+                  message="
+Parameter &apos;website&apos; is required by @Configuration on method setUp but has not been marked @Optional or defined
+in D:\AntomationTesting\workspace\AntotestForAPP\ProductEvi\gstzyForProEvi_PC.xml"
+              >
+<![CDATA[org.testng.TestNGException: 
+Parameter 'website' is required by @Configuration on method setUp but has not been marked @Optional or defined
+in D:\AntomationTesting\workspace\AntotestForAPP\ProductEvi\gstzyForProEvi_PC.xml
+  org.testng.internal.Parameters.createParameters(Parameters.java:155)
+  org.testng.internal.Parameters.createParameters(Parameters.java:358)
+  org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:86)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:199)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+  org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
+  org.testng.TestRunner.privateRun(TestRunner.java:767)
+  org.testng.TestRunner.run(TestRunner.java:617)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:335)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:330)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+  org.testng.SuiteRunner.run(SuiteRunner.java:240)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+  org.testng.TestNG.run(TestNG.java:1057)
+  org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+      </failure>
+
+          </testcase>
+  
+            <testcase name="tearDown" time="0.0" classname="com.ds.testcases.testCreateOrder_PC">
+          <skipped />
+    </testcase>
+            <testcase name="test_2_ClickTheSearchedProduct" time="0.0" classname="com.ds.testcases.testCreateOrder_PC">
+          <skipped />
+    </testcase>
+            <testcase name="test_6_SubmitOrder" time="0.0" classname="com.ds.testcases.testCreateOrder_PC">
+          <skipped />
+    </testcase>
+            <testcase name="test_5_GoToOrder" time="0.0" classname="com.ds.testcases.testCreateOrder_PC">
+          <skipped />
+    </testcase>
+            <testcase name="test_1_SearchTheProduct" time="0.0" classname="com.ds.testcases.testCreateOrder_PC">
+          <skipped />
+    </testcase>
+            <testcase name="test_7_CancelOrder" time="0.0" classname="com.ds.testcases.testCreateOrder_PC">
+          <skipped />
+    </testcase>
+            <testcase name="test_3_AddTheSearchedProductToCart" time="0.0" classname="com.ds.testcases.testCreateOrder_PC">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

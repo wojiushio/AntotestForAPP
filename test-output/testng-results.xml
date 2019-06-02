@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="7" failed="2" total="10" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="360Kad automated testing Suite PC" duration-ms="75106" started-at="2019-05-29T02:42:03Z" finished-at="2019-05-29T02:43:18Z">
+    <groups>
+    </groups>
+    <test name="PC.DS Testing for Account" duration-ms="75106" started-at="2019-05-29T02:42:03Z" finished-at="2019-05-29T02:43:18Z">
+      <class name="com.ds.testcases.testAccount">
+        <test-method status="FAIL" signature="setUp()[pri:0, instance:com.ds.testcases.testAccount@6623a0d3]" name="setUp" is-config="true" duration-ms="0" started-at="2019-05-29T10:42:45Z" finished-at="2019-05-29T10:42:45Z">
+          <exception class="org.openqa.selenium.remote.SessionNotFoundException">
+            <message>
+              <![CDATA[
+Command duration or timeout: 18 milliseconds
+Build info: version: '2.50.0', revision: '1070ace4650453d518aeb03e7a9a36c9d264a8e7', time: '2016-01-27 10:46:18'
+System info: host: 'DS-YF-118', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+Session ID: 4b75f4c2-0cff-4baa-a727-fdf236e0754e
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{automationName=Appium, platform=LINUX, app=d:\apptest\run\PRO\apps\com.dscf.a_2.7.3_1048619.apk, javascriptEnabled=true, browserName=Android, networkConnectionEnabled=true, desired={newCommandTimeout=120, automationName=Appium, app=d:\apptest\run\PRO\apps\com.dscf.a_2.7.3_1048619.apk, platformVersion=4.4, deviceName=Android Emulator, platformName=Android, appPackage=com.dscf.a, noReset=true}, locationContextEnabled=false, appPackage=com.dscf.a, noReset=true, newCommandTimeout=120, platformVersion=5.0, databaseEnabled=false, deviceName=19299651, platformName=Android, webStorageEnabled=false, warnings={}, takesScreenshot=true}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.SessionNotFoundException: 
+Command duration or timeout: 18 milliseconds
+Build info: version: '2.50.0', revision: '1070ace4650453d518aeb03e7a9a36c9d264a8e7', time: '2016-01-27 10:46:18'
+System info: host: 'DS-YF-118', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+Session ID: 4b75f4c2-0cff-4baa-a727-fdf236e0754e
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{automationName=Appium, platform=LINUX, app=d:\apptest\run\PRO\apps\com.dscf.a_2.7.3_1048619.apk, javascriptEnabled=true, browserName=Android, networkConnectionEnabled=true, desired={newCommandTimeout=120, automationName=Appium, app=d:\apptest\run\PRO\apps\com.dscf.a_2.7.3_1048619.apk, platformVersion=4.4, deviceName=Android Emulator, platformName=Android, appPackage=com.dscf.a, noReset=true}, locationContextEnabled=false, appPackage=com.dscf.a, noReset=true, newCommandTimeout=120, platformVersion=5.0, databaseEnabled=false, deviceName=19299651, platformName=Android, webStorageEnabled=false, warnings={}, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:189)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:335)
+	at com.ds.util.Snapshot.snapshot(Snapshot.java:41)
+	at com.ds.testcases.testAccount.setUp(testAccount.java:67)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:335)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:330)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.SessionNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="test_AccountLogin(java.lang.String, java.lang.String)[pri:0, instance:com.ds.testcases.testAccount@6623a0d3]" name="test_AccountLogin" duration-ms="1" started-at="2019-05-29T10:43:18Z" description="testAccountLogin" finished-at="2019-05-29T10:43:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[18520154073]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[222222]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_AccountLogin -->
+        <test-method status="FAIL" signature="test_AccountLoginWithWrongPassword(java.lang.String, java.lang.String)[pri:0, instance:com.ds.testcases.testAccount@6623a0d3]" name="test_AccountLoginWithWrongPassword" duration-ms="0" started-at="2019-05-29T10:43:18Z" description="testAccountLogin" finished-at="2019-05-29T10:43:18Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'Wpassword' is required by @Test on method test_AccountLoginWithWrongPassword but has not been marked @Optional or defined
+in D:\AntomationTesting\workspace\AntotestForAPP\ProductEvi\gstzyForProEvi_PC.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'Wpassword' is required by @Test on method test_AccountLoginWithWrongPassword but has not been marked @Optional or defined
+in D:\AntomationTesting\workspace\AntotestForAPP\ProductEvi\gstzyForProEvi_PC.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:450)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:335)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:330)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_AccountLoginWithWrongPassword -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.ds.testcases.testAccount@6623a0d3]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-05-29T10:43:18Z" finished-at="2019-05-29T10:43:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ds.testcases.testAccount -->
+      <class name="com.ds.testcases.NewTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ds.testcases.NewTest@1bf1a64c]" name="setUp" is-config="true" duration-ms="32882" started-at="2019-05-29T10:42:03Z" finished-at="2019-05-29T10:42:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test_AccountLogin(java.lang.String, java.lang.String)[pri:0, instance:com.ds.testcases.NewTest@1bf1a64c]" name="test_AccountLogin" duration-ms="9425" started-at="2019-05-29T10:42:35Z" description="testAccountLogin" finished-at="2019-05-29T10:42:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[18520154073]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[222222]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_AccountLogin -->
+        <test-method status="FAIL" signature="test_AccountLoginWithWrongPassword(java.lang.String, java.lang.String)[pri:0, instance:com.ds.testcases.NewTest@1bf1a64c]" name="test_AccountLoginWithWrongPassword" duration-ms="0" started-at="2019-05-29T10:42:45Z" description="testAccountLogin" finished-at="2019-05-29T10:42:45Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'Wpassword' is required by @Test on method test_AccountLoginWithWrongPassword but has not been marked @Optional or defined
+in D:\AntomationTesting\workspace\AntotestForAPP\ProductEvi\gstzyForProEvi_PC.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'Wpassword' is required by @Test on method test_AccountLoginWithWrongPassword but has not been marked @Optional or defined
+in D:\AntomationTesting\workspace\AntotestForAPP\ProductEvi\gstzyForProEvi_PC.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:450)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:335)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:330)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_AccountLoginWithWrongPassword -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ds.testcases.NewTest@1bf1a64c]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-05-29T10:42:45Z" finished-at="2019-05-29T10:42:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ds.testcases.NewTest -->
+      <class name="com.ds.testcases.testCreateOrder_PC">
+        <test-method status="FAIL" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ds.testcases.testCreateOrder_PC@61fbfb1e]" name="setUp" is-config="true" duration-ms="0" started-at="2019-05-29T10:43:18Z" finished-at="2019-05-29T10:43:18Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'website' is required by @Configuration on method setUp but has not been marked @Optional or defined
+in D:\AntomationTesting\workspace\AntotestForAPP\ProductEvi\gstzyForProEvi_PC.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'website' is required by @Configuration on method setUp but has not been marked @Optional or defined
+in D:\AntomationTesting\workspace\AntotestForAPP\ProductEvi\gstzyForProEvi_PC.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:86)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:199)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:335)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:330)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="test_1_SearchTheProduct()[pri:0, instance:com.ds.testcases.testCreateOrder_PC@61fbfb1e]" name="test_1_SearchTheProduct" duration-ms="0" started-at="2019-05-29T10:43:18Z" description="testSearchTheProduct" finished-at="2019-05-29T10:43:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_1_SearchTheProduct -->
+        <test-method status="SKIP" signature="test_2_ClickTheSearchedProduct()[pri:0, instance:com.ds.testcases.testCreateOrder_PC@61fbfb1e]" name="test_2_ClickTheSearchedProduct" duration-ms="1" started-at="2019-05-29T10:43:18Z" description="testClickTheSearchedProduct" finished-at="2019-05-29T10:43:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_2_ClickTheSearchedProduct -->
+        <test-method status="SKIP" signature="test_3_AddTheSearchedProductToCart()[pri:0, instance:com.ds.testcases.testCreateOrder_PC@61fbfb1e]" name="test_3_AddTheSearchedProductToCart" duration-ms="0" started-at="2019-05-29T10:43:18Z" description="testAddTheSearchedProductToCart" finished-at="2019-05-29T10:43:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_3_AddTheSearchedProductToCart -->
+        <test-method status="SKIP" signature="test_5_GoToOrder()[pri:0, instance:com.ds.testcases.testCreateOrder_PC@61fbfb1e]" name="test_5_GoToOrder" duration-ms="1" started-at="2019-05-29T10:43:18Z" description="testGoToOrder" finished-at="2019-05-29T10:43:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_5_GoToOrder -->
+        <test-method status="SKIP" signature="test_6_SubmitOrder()[pri:0, instance:com.ds.testcases.testCreateOrder_PC@61fbfb1e]" name="test_6_SubmitOrder" duration-ms="1" started-at="2019-05-29T10:43:18Z" description="testSubmitOrder" finished-at="2019-05-29T10:43:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_6_SubmitOrder -->
+        <test-method status="SKIP" signature="test_7_CancelOrder()[pri:0, instance:com.ds.testcases.testCreateOrder_PC@61fbfb1e]" name="test_7_CancelOrder" duration-ms="1" started-at="2019-05-29T10:43:18Z" description="testCancelOrder" finished-at="2019-05-29T10:43:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_7_CancelOrder -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.ds.testcases.testCreateOrder_PC@61fbfb1e]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-05-29T10:43:18Z" finished-at="2019-05-29T10:43:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ds.testcases.testCreateOrder_PC -->
+    </test> <!-- PC.DS Testing for Account -->
+  </suite> <!-- 360Kad automated testing Suite PC -->
+</testng-results>

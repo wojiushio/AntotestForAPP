@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PC.DS Testing for TEST"
+           tests="8"
+           failures="1"
+           errors="0"
+           skipped="7"
+           time="0.003">
+  <properties />
+            <testcase name="setUp" time="0.000" classname="com.ds.test.testcases.PC.newCarOrder.testCreateOrder_PC">
+                <failure type="org.openqa.selenium.WebDriverException"
+                  message="Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+ on easyscreenshot@mozillaonline.com version 2.52
+1516266147965	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1516266147966	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1516266147966	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1516266147967	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.0
+1516266147967	addons.xpi	DEBUG	Calling bootstrap method startup on wx-assistant@mozillaonline.com version 2.0.2
+1516266147970	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1516266147971	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1516266147971	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1516266147971	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1516266147971	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1516266147971	addons.manager	DEBUG	Starting provider: GMPProvider
+1516266147978	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1516266147978	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1516266147978	addons.manager	DEBUG	Starting provider: PluginProvider
+1516266147979	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1516266147979	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1516266147979	addons.manager	DEBUG	Completed startup sequence
+JavaScript error: resource://cpmanager-clv/CCLVData.jsm, line 46: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIFileURL.file]
+1516266148627	DeferredSave.extensions.json	DEBUG	Starting write
+1516266148633	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1516266148633	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1516266148633	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+JavaScript error: resource://cmsafeflag/SkipSBData.jsm, line 46: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIFileURL.file]
+JavaScript error: resource://cmsafeflag/SkipSBData.jsm, line 85: TypeError: aFile is undefined
+JavaScript error: resource://cmsafeflag/SkipSBData.jsm, line 85: TypeError: aFile is undefined
+1516266148714	addons.webextension.wx-assistant@mozillaonline.com	WARN	Please specify whether you want browser_style or not in your browser_action options.
+1516266149348	addons.repository	DEBUG	No addons.json found.
+1516266149348	DeferredSave.addons.json	DEBUG	Save changes
+1516266149353	DeferredSave.addons.json	DEBUG	Starting timer
+1516266149371	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1516266149371	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1516266149371	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1516266149383	DeferredSave.extensions.json	DEBUG	Write succeeded
+1516266149384	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+JavaScript error: resource://cmsafeflag/SkipSBData.jsm, line 85: TypeError: aFile is undefined
+1516266149412	DeferredSave.addons.json	DEBUG	Starting write
+JavaScript error: resource://cmsafeflag/SkipSBData.jsm, line 85: TypeError: aFile is undefined
+JavaScript error: resource://cmsafeflag/SkipSBData.jsm, line 85: TypeError: aFile is undefined
+1516266149445	DeferredSave.addons.json	DEBUG	Write succeeded
+JavaScript error: http://offlintab.firefoxchina.cn/static/preload.html, line 131: ReferenceError: mozIndexedDB is not defined
+JavaScript error: resource://cmsafeflag/SkipSBData.jsm, line 85: TypeError: aFile is undefined
+JavaScript error: resource://cmsafeflag/SkipSBData.jsm, line 85: TypeError: aFile is undefined
+JavaScript error: resource://cmsafeflag/SkipSBData.jsm, line 85: TypeError: aFile is undefined
+JavaScript error: resource://cmsafeflag/SkipSBData.jsm, line 85: TypeError: aFile is undefined
+
+Build info: version: &apos;2.50.0&apos;, revision: &apos;1070ace4650453d518aeb03e7a9a36c9d264a8e7&apos;, time: &apos;2016-01-27 10:46:18&apos;
+System info: host: &apos;DS-YF-118&apos;, ip: &apos;10.8.70.159&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_51&apos;
+Driver info: driver.version: FirefoxDriver"
+              >
+<![CDATA[org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+ on easyscreenshot@mozillaonline.com version 2.52
+1516266147965	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1516266147966	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1516266147966	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1516266147967	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.0
+1516266147967	addons.xpi	DEBUG	Calling bootstrap method startup on wx-assistant@mozillaonline.com version 2.0.2
+1516266147970	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1516266147971	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1516266147971	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1516266147971	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1516266147971	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1516266147971	addons.manager	DEBUG	Starting provider: GMPProvider
+1516266147978	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1516266147978	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1516266147978	addons.manager	DEBUG	Starting provider: PluginProvider
+1516266147979	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1516266147979	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1516266147979	addons.manager	DEBUG	Completed startup sequence
+JavaScript error: resource://cpmanager-clv/CCLVData.jsm, line 46: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIFileURL.file]
+1516266148627	DeferredSave.extensions.json	DEBUG	Starting write
+1516266148633	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1516266148633	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1516266148633	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+JavaScript error: resource://cmsafeflag/SkipSBData.jsm, line 46: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIFileURL.file]
+JavaScript error: resource://cmsafeflag/SkipSBData.jsm, line 85: TypeError: aFile is undefined
+JavaScript error: resource://cmsafeflag/SkipSBData.jsm, line 85: TypeError: aFile is undefined
+1516266148714	addons.webextension.wx-assistant@mozillaonline.com	WARN	Please specify whether you want browser_style or not in your browser_action options.
+1516266149348	addons.repository	DEBUG	No addons.json found.
+1516266149348	DeferredSave.addons.json	DEBUG	Save changes
+1516266149353	DeferredSave.addons.json	DEBUG	Starting timer
+1516266149371	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1516266149371	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1516266149371	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1516266149383	DeferredSave.extensions.json	DEBUG	Write succeeded
+1516266149384	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+JavaScript error: resource://cmsafeflag/SkipSBData.jsm, line 85: TypeError: aFile is undefined
+1516266149412	DeferredSave.addons.json	DEBUG	Starting write
+JavaScript error: resource://cmsafeflag/SkipSBData.jsm, line 85: TypeError: aFile is undefined
+JavaScript error: resource://cmsafeflag/SkipSBData.jsm, line 85: TypeError: aFile is undefined
+1516266149445	DeferredSave.addons.json	DEBUG	Write succeeded
+JavaScript error: http://offlintab.firefoxchina.cn/static/preload.html, line 131: ReferenceError: mozIndexedDB is not defined
+JavaScript error: resource://cmsafeflag/SkipSBData.jsm, line 85: TypeError: aFile is undefined
+JavaScript error: resource://cmsafeflag/SkipSBData.jsm, line 85: TypeError: aFile is undefined
+JavaScript error: resource://cmsafeflag/SkipSBData.jsm, line 85: TypeError: aFile is undefined
+JavaScript error: resource://cmsafeflag/SkipSBData.jsm, line 85: TypeError: aFile is undefined
+
+Build info: version: '2.50.0', revision: '1070ace4650453d518aeb03e7a9a36c9d264a8e7', time: '2016-01-27 10:46:18'
+System info: host: 'DS-YF-118', ip: '10.8.70.159', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+Driver info: driver.version: FirefoxDriver
+  org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:135)
+  org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+  org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:119)
+  org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:216)
+  org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)
+  org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:207)
+  org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
+  com.ds.test.testcases.PC.newCarOrder.testCreateOrder_PC.setUp(testCreateOrder_PC.java:34)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+  org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+  org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
+  org.testng.TestRunner.privateRun(TestRunner.java:767)
+  org.testng.TestRunner.run(TestRunner.java:617)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:335)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:330)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+  org.testng.SuiteRunner.run(SuiteRunner.java:240)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+  org.testng.TestNG.run(TestNG.java:1057)
+  org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+ on easyscreenshot@mozillaonline.com version 2.52
+1516266147965	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1516266147966	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1516266147966	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1516266147967	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.0
+1516266147967	addons.xpi	DEBUG	Calling bootstrap method startup on wx-assistant@mozillaonline.com version 2.0.2
+1516266147970	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1516266147971	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1516266147971	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1516266147971	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1516266147971	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1516266147971	addons.manager	DEBUG	Starting provider: GMPProvider
+1516266147978	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1516266147978	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1516266147978	addons.manager	DEBUG	Starting provider: PluginProvider
+1516266147979	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1516266147979	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1516266147979	addons.manager	DEBUG	Completed startup sequence
+JavaScript error: resource://cpmanager-clv/CCLVData.jsm, line 46: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIFileURL.file]
+1516266148627	DeferredSave.extensions.json	DEBUG	Starting write
+1516266148633	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1516266148633	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1516266148633	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+JavaScript error: resource://cmsafeflag/SkipSBData.jsm, line 46: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIFileURL.file]
+JavaScript error: resource://cmsafeflag/SkipSBData.jsm, line 85: TypeError: aFile is undefined
+JavaScript error: resource://cmsafeflag/SkipSBData.jsm, line 85: TypeError: aFile is undefined
+1516266148714	addons.webextension.wx-assistant@mozillaonline.com	WARN	Please specify whether you want browser_style or not in your browser_action options.
+1516266149348	addons.repository	DEBUG	No addons.json found.
+1516266149348	DeferredSave.addons.json	DEBUG	Save changes
+1516266149353	DeferredSave.addons.json	DEBUG	Starting timer
+1516266149371	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1516266149371	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1516266149371	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1516266149383	DeferredSave.extensions.json	DEBUG	Write succeeded
+1516266149384	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+JavaScript error: resource://cmsafeflag/SkipSBData.jsm, line 85: TypeError: aFile is undefined
+1516266149412	DeferredSave.addons.json	DEBUG	Starting write
+JavaScript error: resource://cmsafeflag/SkipSBData.jsm, line 85: TypeError: aFile is undefined
+JavaScript error: resource://cmsafeflag/SkipSBData.jsm, line 85: TypeError: aFile is undefined
+1516266149445	DeferredSave.addons.json	DEBUG	Write succeeded
+JavaScript error: http://offlintab.firefoxchina.cn/static/preload.html, line 131: ReferenceError: mozIndexedDB is not defined
+JavaScript error: resource://cmsafeflag/SkipSBData.jsm, line 85: TypeError: aFile is undefined
+JavaScript error: resource://cmsafeflag/SkipSBData.jsm, line 85: TypeError: aFile is undefined
+JavaScript error: resource://cmsafeflag/SkipSBData.jsm, line 85: TypeError: aFile is undefined
+JavaScript error: resource://cmsafeflag/SkipSBData.jsm, line 85: TypeError: aFile is undefined
+
+  org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:123)
+  org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+  org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:119)
+  org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:216)
+  org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)
+  org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:207)
+  org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
+  com.ds.test.testcases.PC.newCarOrder.testCreateOrder_PC.setUp(testCreateOrder_PC.java:34)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+  org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+  org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
+  org.testng.TestRunner.privateRun(TestRunner.java:767)
+  org.testng.TestRunner.run(TestRunner.java:617)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:335)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:330)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+  org.testng.SuiteRunner.run(SuiteRunner.java:240)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+  org.testng.TestNG.run(TestNG.java:1057)
+  org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+      </failure>
+
+          </testcase>
+  
+            <testcase name="tearDown" time="0.0" classname="com.ds.test.testcases.PC.newCarOrder.testCreateOrder_PC">
+          <skipped />
+    </testcase>
+            <testcase name="test_1_SearchTheProduct" time="0.0" classname="com.ds.test.testcases.PC.newCarOrder.testCreateOrder_PC">
+          <skipped />
+    </testcase>
+            <testcase name="test_2_ClickTheSearchedProduct" time="0.0" classname="com.ds.test.testcases.PC.newCarOrder.testCreateOrder_PC">
+          <skipped />
+    </testcase>
+            <testcase name="test_5_GoToOrder" time="0.0" classname="com.ds.test.testcases.PC.newCarOrder.testCreateOrder_PC">
+          <skipped />
+    </testcase>
+            <testcase name="test_3_AddTheSearchedProductToCart" time="0.0" classname="com.ds.test.testcases.PC.newCarOrder.testCreateOrder_PC">
+          <skipped />
+    </testcase>
+            <testcase name="test_6_SubmitOrder" time="0.0" classname="com.ds.test.testcases.PC.newCarOrder.testCreateOrder_PC">
+          <skipped />
+    </testcase>
+            <testcase name="test_7_CancelOrder" time="0.0" classname="com.ds.test.testcases.PC.newCarOrder.testCreateOrder_PC">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

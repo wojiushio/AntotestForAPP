@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="360Kad automated testing Suite PC" verbose="1">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+
+	<parameter name="username" value="18520154073" />
+	<parameter name="password" value="222222" />
+
+<!--  -->
+	<test name="PC.DS Testing for Account">
+		<packages>
+			<package name="com.ds.testcases" />
+
+		</packages>
+	</test>
+
+	
+
+</suite>
+

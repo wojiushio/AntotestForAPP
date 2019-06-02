@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PC.DS Testing for Account"
+           tests="8"
+           failures="1"
+           errors="0"
+           skipped="7"
+           time="0.000">
+  <properties />
+            <testcase name="setUp" time="0.000" classname="com.ds.testcases.testCreateOrder_PC">
+                <failure type="org.testng.TestNGException"
+                  message="
+Parameter &apos;website&apos; is required by @Configuration on method setUp but has not been marked @Optional or defined
+in D:\AntomationTesting\workspace\AntotestForAPP\ProductEvi\gstzyForProEvi_PC.xml"
+              >
+<![CDATA[org.testng.TestNGException: 
+Parameter 'website' is required by @Configuration on method setUp but has not been marked @Optional or defined
+in D:\AntomationTesting\workspace\AntotestForAPP\ProductEvi\gstzyForProEvi_PC.xml
+  org.testng.internal.Parameters.createParameters(Parameters.java:148)
+  org.testng.internal.Parameters.createParameters(Parameters.java:361)
+  org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:84)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:197)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+  org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+  org.testng.TestRunner.privateRun(TestRunner.java:773)
+  org.testng.TestRunner.run(TestRunner.java:623)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+  org.testng.SuiteRunner.run(SuiteRunner.java:259)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+  org.testng.TestNG.run(TestNG.java:1018)
+  org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:74)
+  org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+  org.apache.maven.surefire.Surefire.run(Surefire.java:180)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:350)
+  org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:1021)
+]]>
+      </failure>
+
+          </testcase>
+  
+            <testcase name="tearDown" time="0.0" classname="com.ds.testcases.testCreateOrder_PC">
+          <skipped />
+    </testcase>
+            <testcase name="test_6_SubmitOrder" time="0.0" classname="com.ds.testcases.testCreateOrder_PC">
+          <skipped />
+    </testcase>
+            <testcase name="test_5_GoToOrder" time="0.0" classname="com.ds.testcases.testCreateOrder_PC">
+          <skipped />
+    </testcase>
+            <testcase name="test_2_ClickTheSearchedProduct" time="0.0" classname="com.ds.testcases.testCreateOrder_PC">
+          <skipped />
+    </testcase>
+            <testcase name="test_7_CancelOrder" time="0.0" classname="com.ds.testcases.testCreateOrder_PC">
+          <skipped />
+    </testcase>
+            <testcase name="test_1_SearchTheProduct" time="0.0" classname="com.ds.testcases.testCreateOrder_PC">
+          <skipped />
+    </testcase>
+            <testcase name="test_3_AddTheSearchedProductToCart" time="0.0" classname="com.ds.testcases.testCreateOrder_PC">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>
